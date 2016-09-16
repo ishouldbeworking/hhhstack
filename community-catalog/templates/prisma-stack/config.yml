@@ -1,0 +1,5 @@
+name: Prisma Stack
+description: |
+  Basic Stack for configuring Prisma Stack Environment
+version: v0.0.1
+category: Prisma

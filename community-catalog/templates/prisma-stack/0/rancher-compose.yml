@@ -1,0 +1,19 @@
+.catalog:
+  name: "Prisma Stack"
+  version: "v0.0.1"
+  description: "Basic Stack for configuring Prisma Stack Environment"
+  uuid: Prisma-Stack-0
+  minimum_rancher_version: v1.1.0
+
+
+prisma-router:
+  scale: 2
+  load_balancer_config:
+    haproxy_config: {}
+  health_check:
+    port: 42
+    interval: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
+    response_timeout: 2000
+
